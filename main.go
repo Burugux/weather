@@ -58,6 +58,7 @@ func main() {
 		log.Fatalf("Decoding forecast response failed: %v", err)
 	}
 	fmt.Println("current location: ", d.Timezone)
-	fmt.Println("current temp: ", d.Currently.Temperature)
-	fmt.Println("feels like: ", d.Currently.ApparentTemperature)
+	fmt.Printf("Today's forecast:%s\n", d.Currently.Summary)
+	fmt.Printf("current temp:%v%v\n", d.Currently.Temperature, "°C")
+	fmt.Printf("feels like:%v%v\n", d.Currently.ApparentTemperature, "°C")
 }
