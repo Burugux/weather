@@ -57,8 +57,8 @@ func main() {
 	if err := json.NewDecoder(resp.Body).Decode(&d); err != nil {
 		log.Fatalf("Decoding forecast response failed: %v", err)
 	}
-	fmt.Println("current location: ", d.Timezone)
+	fmt.Println("Current location:", d.Timezone)
 	fmt.Printf("Today's forecast:%s\n", d.Currently.Summary)
-	fmt.Printf("current temp:%v%v\n", d.Currently.Temperature, "°C")
-	fmt.Printf("feels like:%v%v\n", d.Currently.ApparentTemperature, "°C")
+	fmt.Printf("Current temp:%v%v\n", d.Currently.Temperature, "°C")
+	fmt.Printf("Feels like:%v%v\n", d.Currently.ApparentTemperature, "°C")
 }
