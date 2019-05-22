@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Burugux/weather.svg?branch=master)](https://travis-ci.org/Burugux/weather)
 # Weather
 
 Get today's forecast from the command line!
