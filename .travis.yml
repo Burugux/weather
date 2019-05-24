@@ -18,8 +18,12 @@ deploy:
     api_key:
         secure: jfLateCjkbzwHUilboQ9qZnf1CYtkm//AVJRIJdZ663Cp8LwGZlWqp8iy552wPbvG+61URANk0TbGEMTww/9JgLUN5PiQwK99BTw1+CQekvENLNEfi6q5g8sFIGYEAlK1R9z3q5miigHc5ivKMPXnCybHnZ4DqmfHsbZkpBZWw+Y5yUBo6iR+WrwnV0zGDYdLvXjm4flSaUCkfyekZau0iVtYSoUgl7KL5ZZXuK4rDvUQ07ObnRFHsQ1O571+qKOgBHvnjgqtNM2WQW0pITQ1HtERO3S13fGYDZXsabBTo5/69qeyYxLwT6IUckV1gugpvK4nmSyPJUnrm9iUhp+H+G9saTyq9NYetoH8/mwH+O2OqBqtctDzj58gpjli5qFk6SHVgftZ91TsRM1jB7QP8ZcE7oGuOlisxG+T+LsJYbiRIGfvp4IiZ61pvCuvA8CdotfMyEQp5NzG9Imqr0eCsXpe04Pm6HR7AlpFm7KdexIQ2btchkrt+NFEWQZ/e9oTHm5bUJq6RdJrZurD6WfBpAZehi1dcPQUgsSjbT1JR5K7BT+0Q1d5S76JqlqCWnyb9T3apf/7xydykbsmVUcItrk4JODECQVE8M/ge/gDzVGDPgyhjotXNP+BzPvuUAcq4+XadK2VHCAw3AnIka5Vs+DrYlGPE7e0t14sbvGMQU=
 file:
+    - cross/weather-darwin-386
     - cross/weather-darwin-amd64
+    - cross/weather-linux-386
     - cross/weather-linux-amd64
+    - cross/weather-linux-arm
+    - cross/weather-linux-arm64
     - cross/weather-windows-386.exe
     - cross/weather-windows-amd64.exe
 on:
